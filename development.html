@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="ja"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roblox 霞ヶ原駐屯地 公式サイト">
+  <meta name="theme-color" content="#273127">
+  <link rel="stylesheet" href="./styles.css">
+<title>開発状況｜霞ヶ原駐屯地</title></head>
+<body><header class="site-header" id="siteHeader">
+  <div class="header-image" id="headerImage"></div>
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="霞ヶ原駐屯地 トップ">
+      <div class="brand-symbol">
+        <img id="headerLogo" src="./images/logo.png" alt="霞ヶ原駐屯地ロゴ">
+        <span>霞</span>
+      </div>
+      <div class="brand-copy">
+        <strong id="siteName">霞ヶ原駐屯地</strong>
+        <span id="siteNameEn">KASUMIGAHARA GARRISON</span>
+      </div>
+    </a>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="global-nav" id="globalNav">
+      <a href="./index.html">ホーム</a>
+      <a href="./about.html">駐屯地について</a>
+      <a href="./units.html">部隊紹介</a>
+      <a href="./development.html">開発状況</a>
+      <a href="./announcements.html">アナウンス</a>
+      <a href="./topics.html">トピック</a>
+      <a class="nav-cta" id="headerGameLink" href="#" target="_blank" rel="noopener noreferrer">ゲームに参加</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero"><div class="content-width"><p>DEVELOPMENT</p><h1>開発状況</h1></div></section>
+  <section class="section"><div class="content-width">
+    <div class="section-heading"><div><p class="section-label">PROGRESS</p><h2>現在の開発項目</h2></div><p>マップや機能の進捗を掲載しています。</p></div>
+    <div class="development-grid" id="developmentList"></div>
+  </div></section>
+</main><footer class="site-footer">
+  <div class="content-width footer-inner">
+    <div class="footer-brand">
+      <div class="brand-symbol small">
+        <img id="footerLogo" src="./images/logo.png" alt="">
+        <span>霞</span>
+      </div>
+      <div>
+        <strong>霞ヶ原駐屯地</strong>
+        <span>KASUMIGAHARA GARRISON</span>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a id="footerRoblox" href="#" target="_blank" rel="noopener noreferrer">Roblox</a>
+      <a id="footerDiscord" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+    </div>
+    <p>© <span id="currentYear"></span> Kasumigahara Garrison. Unofficial Roblox project.</p>
+  </div>
+</footer>
+<script src="./data.js"></script>
+<script src="./script.js"></script></body></html>
