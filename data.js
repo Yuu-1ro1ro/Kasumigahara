@@ -14,7 +14,7 @@ const SITE_DATA = {
     game: "https://www.roblox.com/ja/games/75771202494832/Kasumigahara-Garrison",
     robloxGroup: "https://www.roblox.com/ja/communities/620046815/Kasumigahara-Garrison#!/about",
     discord: "https://discord.gg/Erzh4HpEeJ",
-    rules: "https://docs.google.com/document/d/1ZwdiFtjzcQy6g4g6BqL767H1zCZSCeVZy68FsxrflNg/edit?usp=drivesdk",
+    rules: "https://docs.google.com/document/d/1ZwdiFtjzcQy6g4g6BqL767H1zCZSCeVZy68FsxrflNg/edit?usp=drivesdk"
   },
 
   images: {
