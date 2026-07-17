@@ -30,6 +30,7 @@
   setLink("#joinGameLink", data.links.game);
   setLink("#footerRoblox", data.links.robloxGroup);
   setLink("#footerDiscord", data.links.discord);
+  setLink("#rulesLink", data.links.rules);
 
   const headerImage = $("#headerImage");
   if (headerImage && data.images.header) headerImage.style.backgroundImage = `url("${data.images.header}")`;
